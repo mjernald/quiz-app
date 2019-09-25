@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MLB Quiz</title>
+</head>
+<body>
+    <!--Start Quiz Page-->
+    <header role="banner">
+        <h1>Test Your MLB Knowledge!!!</h1>
+    </header>
+    <main>
+    <section>
+        <div class="intro">
+            <p> Is your baseball knowledge stuck in rookie ball? 
+                Or are you a first ballot Hall of Famer?</p>
+                <button class="startQuiz" aria-label="Begin Quiz"></button>
+        </div>
+    </section>
+    
+    <!--Quiz Question Page-->
+    <section>
+        <div class="button">
+            <input type="radio" class="answerInput"
+            name="answer" aria-label="radioButton">
+        </div>
+        <div class="quesionDiv">
+        <h3>Current Quetion</h3>
+        </div>
+        <div class="outerAnswer">
+            <div class="answersDiv"></div>
+            <div class="checkAnswerButton">
+            <button type="submit" class="checkAnswer">Submit</button></div>
+            </div>
+        </div>
+    <section>
+        <div class="js-containter">
+        <div class="currentStats"></div>
+            <form class="js-form">
+            <fieldset class="quizAnswers">
+        <div class="js-question-container">
+        </div>
+            </fieldset>
+            </form>
+        </div>
+    </section>
+
+    <!--Feedback Page-->
+    <section>
+        <div class="results"></div>
+        <div class="explanation"></div>
+        <button class="nextButton">Next</button>
+         </section>
+
+    
+    <!--Final Results Page-->
+    <section>
+        <h2>Final Results</h2>
+        <p>Correct/Incorrect</p>
+        <button class="restart-button">Retake Quiz</button>
+    </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
